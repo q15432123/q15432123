@@ -1,0 +1,377 @@
+### Hi there 👋
+
+<!--
+**q15432123/q15432123** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+
+
+#include <iostream>
+#include <cmath> 
+using namespace std; 
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+
+int main(int argc, char** argv) {
+	cout << "輸入一個數" << endl;
+	int number;
+	cin >> number; 
+	
+	double answer = sqrt(number);
+	cout <<number<<"的平方根為" <<answer <<endl;
+	
+	if (sqrt(number)>10 ){
+		cout << "他的值大於10"<<endl; 
+}
+	return 0;
+}
+
+
+
+
+#include <iostream>
+using namespace std;
+
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+
+int main(int argc, char** argv) {
+	int  a =3*3*3.14159 ;
+	cout << a << endl;
+	
+	double b=123.456;
+	int c = 123*456*b;
+	int d = 123*456*(int)b;
+	int e = (int)(123*456*b);
+	
+	cout << b<<" " << endl;
+	cout << c<< " " <<d <<endl;
+	cout<< e << endl;
+
+	
+	
+	return 0;
+}
+
+
+
+
+#include <iostream>
+using namespace std;
+
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+
+int main(int argc, char** argv) {
+	
+	int a ,b ;
+	
+	cout << "輸入整數A"<< endl;
+	cin >> a ; 
+	cout <<	"輸入整數B"<< endl; 
+	cin >> b ;
+	if (a>b) {
+		cout <<"a大 a是" << a<<endl; 
+	}
+	if (b>a){				//else {}
+		cout << "b大 b是"<<b <<endl;
+	}
+	if (a==b){
+		cout << "a跟b一樣大"<< endl; 
+	}
+	
+	
+	return 0;
+}
+
+
+
+
+
+
+
+
+
+
+#include <iostream>
+using namespace std;
+
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+
+int main(int argc, char** argv) {
+	/*
+	int a ,b ,c;
+	c= 0 ;				//c=0 first 
+	
+	cout << "輸入整數A"<< endl;
+	cin >> a ; 
+	cout <<	"輸入整數B"<< endl; 
+	cin >> b ;
+
+	if (a>b){
+		c=a ; 
+	}
+	if (a<b){
+		c=b;
+	}
+	
+	if (a==b){
+		c=a ;
+	}
+	cout <<"比較大的值"<<c <<endl;	
+	return 0;
+	}	
+	*/
+	// int a ,b ;
+	
+	 				//c=0 first 
+	/*	
+	cout << "輸入整數A"<< endl;
+	cin >> a ; 
+	cout <<	"輸入整數B"<< endl; 
+	cin >> b ;
+
+	int c = a;
+	
+	if (a<b) {
+		c=b ;
+	}
+	cout <<"比較大的值"<<c <<endl;	
+	return 0;
+	}	
+	*/
+	/*
+	cout << "輸入整數"<<endl;
+	int a;
+	cin >> a ;
+	
+	cout <<"輸入整數" <<endl;
+	int b ;
+	cin>> b; 
+	
+	cout <<"輸入整數" <<endl; 
+	int c ;
+	cin>> c ;
+	
+	int d = a ; 
+	
+		if (d<b){   //先判斷 B A  A大 不執行第一行 
+		d = b;		 
+		}
+		if (d<c){		//再判斷 a > B  B大不執行 
+		d=c ;
+		}
+	cout << "比較大的數是"<< d <<endl; 
+	*/
+		cout << "輸入整數"<<endl;
+	int a;
+	cin >> a ;
+	
+	cout <<"輸入整數" <<endl;
+	int b ;
+	cin>> b; 
+	
+	cout <<"輸入整數" <<endl; 
+	int c ;
+	cin>> c ;
+	
+	int d = a ; 
+	
+		if (d<b){   //先判斷 B A  A大 不執行第一行 
+		d = b;		 
+		}
+		if (d<c){		//再判斷 a > B  B大不執行 
+		d=c ;
+		}
+	cout << "比較大的數是"<< d <<endl; 
+	
+	
+	
+	
+	
+	
+}
+	
+  
+  #include <iostream>
+using namespace std;
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+
+int main(int argc, char** argv) {
+	int a ,b,c;
+	
+	cout << "輸入A"<<endl;
+	cin >> a;
+	cout <<	"輸入B"<<endl; 
+	cin >> b; 
+	cout <<	"輸入c"<<endl; 
+	cin >> c; 
+	int x;
+	
+	x = a;
+	
+	if (x < b){
+		x = b; 
+	}
+	if (x < c ){
+		x = c ;
+	}
+	if (a==b && b==c){
+		x= 0;
+	}
+	if (x != 0){
+		cout << x <<endl;
+	}else {cout << "一樣大"<<endl; 
+	}
+	
+	
+	
+	
+
+	//cout << c <<endl;
+	//cout << "一樣大"<<endl; 
+	return 0;
+}
+	
+	
+  
+  
+  
+  #include <iostream>
+using namespace std;
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+
+int main(int argc, char** argv) {
+	
+	// 4的倍數 
+	// 不可以100倍數 
+	// 可以是400倍數 
+	cout << "輸入年"<< endl;
+	int year;
+	cin >> year;
+	
+	bool ans = false;
+	
+	
+	if (year%4 == 0){
+		if(year%100!=0){
+			ans = true;
+		}
+		if(year%400==0){
+		ans = true;
+		}
+	}
+	
+	 
+	
+	if(ans){
+	cout << "是閏年"<<endl;
+	}
+	else{
+	cout << "不是閏年"<<endl;
+	}
+	
+
+	return 0;
+}
+	
+	
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  #include <iostream>
+using namespace std;
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+
+int main(int argc, char** argv) {
+/*	
+	// 4的倍數 
+	// 不可以100倍數 
+	// 可以是400倍數 
+	cout << "輸入年"<< endl;
+	int year;
+	cin >> year;
+	
+	bool ans = false;
+	
+	
+	if (year%4 == 0){
+		if(year%100!=0){
+			ans = true;
+		}
+		if(year%400==0){
+		ans = true;
+		}
+	}
+	
+	 
+	
+	if(ans){
+	cout << "是閏年"<<endl;
+	}
+	else{
+	cout << "不是閏年"<<endl;
+	}
+	
+	return 0;
+*/	
+
+
+/*	cout << "輸入年"<< endl;
+	int year;
+	cin >> year;
+	
+	bool ans = false;
+	
+	
+	if (year%4 == 0){
+		if(year%100!=0 || year%400==0){
+			ans = true;
+		}
+	}
+	
+	 
+	
+	if(ans){
+	cout << "是閏年"<<endl;
+	}
+	else{
+	cout << "不是閏年"<<endl;
+	}
+*/
+	
+cout << "輸入年"<< endl;
+	int year;
+	cin >> year;
+	
+	bool ans = true;
+		
+	if ((year%4 == 0) && (year%100!=0 || year%400==0)){
+			ans = false;
+	}
+	
+		
+	if(!ans){
+	cout << "是閏年"<<endl;
+	}
+	else{
+	cout << "不是閏年"<<endl;
+	}
+	 
+
+
+	return 0;
+}
