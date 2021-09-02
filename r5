@@ -113,3 +113,89 @@ int main(int argc, char** argv) {
 
 	return 0;
 }
+
+
+
+
+
+
+
+
+
+#include <iostream>
+using namespace std;
+
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+
+int main(int argc, char** argv) {
+	
+	/*int score;
+	cout << "輸入此次成績" << endl;
+	cin >>score ;
+
+	string a = "分數錯誤";
+
+	if (score>= 90&& score <=100){
+		a="優"; 
+	}else if (score < 90 && score >=80 ){
+		a = "甲";
+	}else if (score < 80 && score >=70 ){
+		a = "乙";
+	}else if (score < 70 && score >=60 ){
+		a = "丙";
+	}else if (score < 60  && score >=0){
+		a = "丁";
+	}
+	
+	cout << a << endl;
+	*/
+	
+	
+	
+	/*
+	int score;
+	cout << "輸入此次成績" << endl;
+	cin >>score ;
+
+	string a ;
+
+	if 		(score>= 90){
+		a="優"; 
+	}else if (score >=80){
+		a = "甲";
+	}else if (score >=70){
+		a = "乙";
+	}else if (score >=60){
+		a = "丙";
+	}else if (score >= 0){
+		a = "丁";
+	}
+	if(score >100|| score < 0){
+		a = "輸入錯誤";
+	}
+	
+	cout << a << endl;
+	*/
+	
+	int score;
+	cout << "輸入此次成績" << endl;
+	cin >>score ;
+
+	string a ="丁" ;
+	
+	if(score >100|| score < 0){
+		a = "輸入錯誤";
+	}else if(score>= 90){
+			a="優"; 
+	}else if (score >=80){
+			a = "甲";
+	}else if (score >=70){
+			a = "乙";
+	}else if (score >=60){
+			a = "丙";
+	}
+		
+	cout << a << endl;
+	
+	return 0;
+}
