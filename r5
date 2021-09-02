@@ -264,3 +264,51 @@ int main(int argc, char** argv) {
 	
 	return 0;
 }
+
+
+#include <iostream>
+using namespace std;
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+
+int main(int argc, char** argv) {
+/*	int a = -1 ,b =-1 , c = 1 ;
+	if (a>0) {
+		cout << "HI" << endl; 
+	}else{
+		if (b > 0){cout << "Hello" << endl;
+		}else 
+			if (c > 0){
+				cout << "HO" <<endl;
+		}
+	}
+*/	
+/*	int a = 1 ,b =1 , c = 1 ;
+	if (a>0) {
+		cout << "HI" << endl; 
+	}else if (b > 0)
+		{cout << "Hello" << endl;
+	}else if (c > 0)
+		{cout << "HO" <<endl;}
+	*/			
+	int a = -1 ,b =1 , c = 1 ;
+	if (a>0) {
+		cout << "HI" << endl;
+		} else
+		{if (b > 0)
+		cout << "Hello" << endl;
+		cout << "HO" <<endl;}
+		
+	if(a>0 ){
+		cout << "hi " <<endl;
+	}else if (b>0){
+		cout <<"hello" <<endl;
+		cout <<"ha"		<<endl;
+		}
+	
+	
+	
+
+
+ 
+	return 0;
+}
