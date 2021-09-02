@@ -199,3 +199,68 @@ int main(int argc, char** argv) {
 	
 	return 0;
 }
+
+
+
+#include <iostream>
+using namespace std; 
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+
+int main(int argc, char** argv) {
+	/*
+	int a = 1, b =-1;
+	if (a>0){
+		if(b<0){
+		cout << "hi "<<endl;
+		}
+	}
+	
+	if (a>0 && b<0){
+	cout << "HI" << endl;
+	}
+	*/
+	/*
+		int a = 1, b =1;
+	if (a>0){
+		if (b <0){
+		cout << "hi "<<endl;}
+	}else {cout << "hello"<<endl;}
+	
+	if (a > 0 && b < 0){
+	cout <<"HI" <<endl;
+	}else {cout << "hello"<<endl;} 
+	*/
+	
+	/*int a = 1, b =1;
+	if (a>0){
+		if (b <0){
+		cout << "hi "<<endl;}
+	}else {cout << "hello"<<endl;}
+	
+	if (a > 0 && b < 0){
+	cout <<"HI" <<endl;
+	}else {cout << "hello"<<endl;} 
+	*/	
+	/* 
+	int a = 1,b=-1;
+	if (a>0){
+		if (b<0){
+		cout << "Hi" << endl; 
+		}
+		cout << "hello"<<endl;
+	}
+	cout << endl;
+	
+	
+	if (a>0 && b <0){
+		cout << "Hi" <<endl;
+	
+	}
+	*/ 
+	
+	
+	
+	
+	
+	return 0;
+}
