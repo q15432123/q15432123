@@ -1,0 +1,106 @@
+#include <iostream>
+#include <string>
+using namespace std;
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+
+int main(int argc, char** argv) {
+	int a = 0;
+	string b = " ";
+	cout << "輸入0~3" <<endl;
+	cin >> a ; 
+	
+	switch (a) {
+		case 0: 
+		b = "春天";
+		break;
+		
+		case 1 :
+		b = "夏天";
+		break ;
+		
+		case 2 :
+		b = "秋天";
+		break;
+		
+		case 3 :
+		b = "冬天"; 
+		break;
+		
+		default: 
+		b = "無效";
+				}
+		cout << b << endl;
+}
+
+
+
+
+#include <iostream>
+using namespace std;
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+
+int main(int argc, char** argv) {
+/*	
+	int year = 1 ;
+	while (year != 0){
+		
+		cout << "請輸入一個西元年,按0離開" << endl;
+		cin >> year ;
+		
+		bool answer = false ;
+		if (year % 4 ==0 && year % 100 != 0 || year % 400 == 0 ){
+			answer = true ;		
+		}  
+		
+		if(year == 0){
+			cout << "掰掰" <<endl; 
+			}else if (answer) {
+				cout << "閏年" <<endl; 
+			}else {
+				cout << "平年" <<endl; 
+			}
+	}
+*/	
+/*	int year = 1 ;
+	while (year != 0){
+		
+		cout << "請輸入一個西元年,按0離開" << endl;
+		cin >> year ;
+		
+		bool answer = false ;
+		if (year % 4 ==0 && year % 100 != 0 || year % 400 == 0 ){
+			answer = true ;		
+		}  
+		
+		if(year == 0){
+		cout << "掰掰" <<endl; 
+			}else if (answer) {
+				cout << "閏年" <<endl; 
+			}else {
+				cout << "平年" <<endl; 
+			}
+	}
+*/
+
+	int year = 1 ;
+	while (year != 0){
+		
+		cout << "請輸入一個西元年,按0離開" << endl;
+		cin >> year ;
+		if (year != 0){
+			
+			bool answer = false ;
+			if (year % 4 ==0 && year % 100 != 0 || year % 400 == 0 ){
+				answer = true ;
+				}
+				if (answer){
+					cout << "閏年" <<endl; 
+				}else { cout <<"平年" <<endl; }
+			}else{cout << "掰掰" <<endl;
+			}
+	}
+
+	
+	
+	return 0;
+}
