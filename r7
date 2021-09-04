@@ -1,0 +1,91 @@
+#include <iostream>
+#include <string>
+using namespace std; 
+
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+
+int main(int argc, char** argv) {
+	/*	char c ='Y';	
+	
+	while (c =='Y' || c=='y'){
+		cout << "輸入西元年"<<endl;
+		int year = 0 ;
+		cin >> year ;
+		
+		bool answer= false;
+		
+		if (year%4 == 0 && year %100 !=0 || year %400==0 ) {
+			answer = true;
+		}
+		
+		if (answer){
+		cout << "閏年"<<endl; 
+		}else{
+		cout << "平年"<<endl; 
+		}
+		
+		cout <<"請輸入'Y'繼續執行，其他鍵結束.=>" <<endl;
+	
+		cin >> c ;
+		
+	}
+	*/
+	
+		
+	
+	while (true){
+		cout << "輸入西元年"<<endl;
+		int year = 0 ;
+		cin >> year ;
+		
+		bool answer= false;
+		
+		if (year%4 == 0 && year %100 !=0 || year %400==0 ) {
+			answer = true;
+		}
+		
+		if (answer){
+		cout << "閏年"<<endl; 
+		}else{
+		cout << "平年"<<endl; 
+		}
+		
+		cout <<"請輸入'Y'繼續執行，其他鍵結束.=>" <<endl;
+		char c ='Y';
+		cin >> c ;
+		
+		if (c!= 'Y' && c != 'y'){
+		break;
+		}
+		
+	}
+	
+	return 0;
+	
+}
+
+
+
+char c = 'y';
+	
+	while (c !='N'&& c !='n'){
+		cout << "輸入西元年"<<endl;
+		int year = 0 ;
+		cin >> year ;
+		
+		bool answer= false;
+		
+		if (year%4 == 0 && year %100 !=0 || year %400==0 ) {
+			answer = true;
+		}
+		
+		if (answer){
+		cout << "閏年"<<endl; 
+		}else{
+		cout << "平年"<<endl; 
+		}
+		
+		cout <<"請輸入'N'結束，其他鍵繼續執行.=>" <<endl;
+		
+		cin >> c ;	
+	}
