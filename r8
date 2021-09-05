@@ -1,0 +1,31 @@
+### Hi there 👋
+int main(int argc, char** argv) {
+	int count = 0;
+	char c = 'y';
+	while (c!= 'n'&& c != 'N'){
+		cout << "請輸入一個年份" <<endl;
+		int year = 0 ;
+		cin >> year ;
+		
+		
+		
+		bool answer = true;
+	
+		if (year %4 == 0 && year %100 != 0 || year %400 ==0 ){
+			answer = true;
+			count ++;
+		}
+		if (answer){
+			cout << "閏年" <<endl;   
+		}else {
+			cout << "平年" <<endl; 
+		}
+	cout <<"請輸入N/n結束,其他鍵繼續執行" <<endl;
+	cin >> c;
+	
+	}
+	cout << count <<endl;	
+ 	
+	return 0;
+	
+}
