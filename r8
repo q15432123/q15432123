@@ -29,3 +29,52 @@ int main(int argc, char** argv) {
 	return 0;
 	
 }
+
+
+#include <iostream>
+#include <string>
+using namespace std; 
+
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+
+int main(int argc, char** argv) {
+
+	//
+	
+	int a =0,n=4 ; 
+	
+	
+	
+	while (n!=5){
+		cout <<"1提款 2轉帳 3餘額查詢 4其他服務 5離開"<<endl;
+		cin >> n ;
+		bool b = true ;
+	switch (n){
+			case 1:
+				cout <<"提款中" <<endl;
+				break;
+			case 2:
+				cout <<"轉帳中" <<endl;
+				break;
+			case 3:
+				cout <<"餘額 為0" <<endl;
+				break;
+			case 4:
+				cout <<"沒有服務" <<endl;
+				break;
+			case 5:
+				cout <<"離開" <<endl;
+				break;
+			default:
+				cout <<"請輸入正確選項" <<endl;
+				break; 
+		}if (!b){
+			break;
+		}
+	}
+		
+	
+ 	
+	return 0;
+	
+}
