@@ -1,0 +1,35 @@
+#include <iostream>
+#include <string>
+using namespace std; 
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+
+int main(int argc, char** argv) {
+	
+/*	1*1 
+	1*2 
+	1*3
+*/	
+	for (int b = 1; b<=9 ; b++){
+		cout <<b<<"的九九乘法" << endl; 
+		cout <<"分開"<<endl;
+		
+		for(int a =1; a <=9;a++){
+			 
+		cout <<b << "*"<<a <<"="<< a*b<<endl;
+		}
+	} 
+	return 0;
+}
+	for (int b = 1; b<=9 ; b++){
+	
+		
+		for(int a =1; a <=9;a++){
+			 
+			 int c = a*b;
+			 
+			 	
+			 	cout <<b << "*"<<a<<(c>=10?"=" : "= ")<<c<<"\t";
+		
+		}
+		cout <<endl;
+	} 	
