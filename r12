@@ -1,0 +1,52 @@
+	int main(int argc, char** argv) {
+		
+	for (int b = 1 ;b <= 5 ;b ++){
+		for (int a = 1  ;a <= 6-b  ; a++){
+			cout << 6-a ;
+			}
+			cout <<endl;
+	}
+	return 0;
+}
+
+	for (int c =1 ;c<=9;c+=2){
+		for (int a =1 ;a <= (9-c)/2; a++){
+			cout << " ";
+		
+		}
+		for (int b = 1 ;b <= c ;b++){
+			cout <<b;
+		}
+		cout <<endl;
+	}
+	
+	
+
+	return 0;
+  
+  		for (int c =9 ;c>=0 ;c-=2){
+		for (int a =1;a <=(9-c/2); a++){
+				cout << " ";
+				
+			}
+			for (int b=1 ;b<=c ;b++){
+					cout << b ;
+				}
+				cout <<endl;
+		}
+	
+	for (int c =1 ;c<=9 ;c+=2){
+		for (int a =1;a <=(9-c/2); a++){
+				cout << " ";
+				
+			}
+			for (int b=1 ;b<=c ;b++){
+					cout << b ;
+				}
+				cout <<endl;
+		}
+
+
+中秋好忙 突然覺得學得有點卡住
+求求各位老闆支援
+為自己加油!
